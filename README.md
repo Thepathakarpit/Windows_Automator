@@ -8,3 +8,5 @@ USAGE:
 5. Enter gemini api key which you can find at https://aistudio.google.com/app/apikey
 
 And enjoy automating.
+
+NOTE: This is nothing but simple implementation of gemini which works on cmd with mhy custom prompt. You can simply edit the pre written prompt or remove it completely and interact directly with gemini on cmd. Have fun!
