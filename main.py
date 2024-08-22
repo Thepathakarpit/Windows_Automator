@@ -3,7 +3,10 @@ import os
 from subprocess import Popen
 
 #Enter your api key between the quotes below, which you can get at https://aistudio.google.com/app/apikey
-api = ""
+api = " " 
+
+if(api==" "):
+  api = input("Please input your gemini api key: ")
 genai.configure(api_key=api)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
